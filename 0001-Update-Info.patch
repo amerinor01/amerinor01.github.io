@@ -1,0 +1,241 @@
+From fc3100bcf0975e0468960d0b9537750bb725221e Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Alberto=20Merino=20Risue=C3=B1o?= <Alberto.Merino@uclm.es>
+Date: Mon, 27 Oct 2025 16:11:19 +0100
+Subject: [PATCH] Update Info
+
+---
+ _data/coauthors.yml |  36 ++--------------
+ _data/cv.yml        | 101 ++++++++++++++------------------------------
+ _data/socials.yml   |  16 +++----
+ 3 files changed, 41 insertions(+), 112 deletions(-)
+
+diff --git a/_data/coauthors.yml b/_data/coauthors.yml
+index 5a989cf..587bea6 100644
+--- a/_data/coauthors.yml
++++ b/_data/coauthors.yml
+@@ -1,34 +1,4 @@
+-"adams":
+-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
++"jesus":
++  - firstname: ["Jesus", "Escudero-Sahuquillo", , "Jesús Escudero-Sahuquillo"]
++    url: https://hipineb.i3a.info/jescudero/
+ 
+-"podolsky":
+-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+-
+-"rosen":
+-  - firstname: ["Nathan", "N."]
+-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+-
+-"bach":
+-  - firstname: ["Johann Sebastian", "J. S."]
+-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+-
+-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+-
+-"przibram":
+-  - firstname: ["Karl"]
+-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+-
+-"schrodinger":
+-  - firstname: ["Erwin"]
+-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+-
+-"lorentz":
+-  - firstname: ["Hendrik Antoon"]
+-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+-
+-"planck":
+-  - firstname: ["Max"]
+-    url: https://en.wikipedia.org/wiki/Max_Planck
+diff --git a/_data/cv.yml b/_data/cv.yml
+index 5885b30..b8e7c60 100644
+--- a/_data/cv.yml
++++ b/_data/cv.yml
+@@ -2,96 +2,59 @@
+   type: map
+   contents:
+     - name: Full Name
+-      value: Albert Einstein
++      value: Alberto Merino
+     - name: Date of Birth
+-      value: 14th March 1879
++      value: 22th July 1999
+     - name: Languages
+-      value: English, German
++      value: English, Spanish
+ 
+ - title: Education
+   type: time_table
+   contents:
+     - title: PhD
+-      institution: University of Zurich, Zurich, Switzerland
+-      year: 1905
+-      description:
+-        - Description 1.
+-        - Description 2.
+-        - title: Description 3.
+-          contents:
+-            - Sub-description 1.
+-            - Sub-description 2.
+-    - title: Federal teaching diploma
+-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+-      year: 1900
+-      description:
+-        - Description 1.
+-        - Description 2.
++      institution: University of Castilla-La Mancha
++      year: 2023-Current
++
++    - title: Máster Universitario en Ingeniería Informática (MUii)
++      institution: University of Castilla-La Mancha, Albacete, Spain
++      year: 2022 - 2023
+ 
+ - title: Experience
+   type: time_table
+   contents:
+-    - title: Professor of Theoretical Physics
+-      institution: Institute for Advanced Study, Princeton University
+-      year: 1933 - 1955
++    - title: Research Assistant
++      institution: University of Castilla-La Mancha
++      year: 2021 - 2025
+       description:
+-        - Description 1.
+-        - Description 2.
+-        - title: Description 3.
+-          contents:
+-            - Sub-description 1.
+-            - Sub-description 2.
+-    - title: Visiting Professor
+-      institution: California Institute of Technology, Pasadena, California, US
+-      year: 1933
++        - Analyzing the performance of existing congestion control algorithms.
++        - Developing new tools for analyzing network performance
++        - Analyzing the impact of different network parameters on performance.
++        - Analyzing the impact of different traffic patterns on congestion control performance.
++        - Authored and co-authored scientific publications in peer-reviewed journals and conferences
++
++    - title: Summer of Nix Contributor
++      institution: NixOS Foundation
++      year: 06.2024 - 09.2024
+       description:
+-        - Description 1.
+-        - Description 2.
+-
+-    - title: Director
+-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+-      year: 1917-1933
+-
+-    - title: Professor of Theoretical Physics
+-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+-      year: 1911 - 1917
+-      description:
+-
+-    - title: Associate Professor of Theoretical Physics
+-      institution: University of Zurich, Zurich, Switzerland
+-      year: 1909 - 1911
++        - Contributed to improving the building processes of libraries and security software firmware in a remote-friendly team.
++        - Enhanced cross-compilation workflows using the Nix ecosystem for efficient builds.
++        - Present our work in the NixCon 2024
+ 
+ - title: Open Source Projects
+   type: time_table
+   contents:
+-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+-      year: 2015-now
+-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
++    - title: <a href="https://github.com/NixOs/nixpkgs">NixPkgs</a>
++      year: 2024-now
++      description: Mantainer of multiple NixPkgs
+ 
+-- title: Honors and Awards
+-  type: time_table
+-  contents:
+-    - year: 1921
+-      items:
+-        - Nobel Prize in Physics
+-        - Matteucci Medal
+-    - year: 2029
+-      items:
+-        - Max Planck Medal
+ 
+ - title: Academic Interests
+   type: nested_list
+   contents:
+-    - title: Topic 1.
+-      items:
+-        - Description 1.
+-        - Description 2.
+-    - title: Topic 2.
++    - title: High Performance Computing Networks.
+       items:
+-        - Description 1.
+-        - Description 2.
++        - Congestion Controntrol.
++        - DCQCN.
++        - Congestion Isolation.
++    - title: Performance Engineer.
+ 
+-- title: Other Interests
+-  type: list
+-  contents:
+-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+diff --git a/_data/socials.yml b/_data/socials.yml
+index 7011e9c..c42f682 100644
+--- a/_data/socials.yml
++++ b/_data/socials.yml
+@@ -8,33 +8,33 @@
+ # acm_id: # your dl.acm.org/profile/id
+ # blogger_url: # your blogger URL
+ # bluesky_url: # your bluesky URL
+-# dblp_url: # your DBLP profile url
++dblp_url: https://dblp.org/pid/183/2104.html # your DBLP profile url
+ # discord_id: # your discord id (18-digit unique numerical identifier)
+-email: you@example.com # your email address
++email: Alberto.Merino@uclm.es # your email address
+ # facebook_id: # your facebook id
+ # flickr_id: # your flickr id
+ # github_username: # your GitHub user name
+ # gitlab_username: # your GitLab user name
+ # hal_id: # your HAL id (https://hal.science/)
+ # ieee_id: # your ieeexplore.ieee.org/author/id
+-inspirehep_id: 1010907 # Inspire HEP author ID
++# inspirehep_id: 1010907 # Inspire HEP author ID
+ # instagram_id: # your instagram id
+ # kaggle_id: # your kaggle id
+ # keybase_username: # your keybase user name
+ # lastfm_id: # your lastfm id
+ # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+ # leetcode_id: # your LeetCode id
+-# linkedin_username: # your LinkedIn user name
++linkedin_username: amerinorisueno # your LinkedIn user name
+ # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+ # medium_username: # your Medium username
+-# orcid_id: # your ORCID ID
++orcid_id: 0009-0002-8428-0005
+ # osf_id: # your OSF ID
+ # pinterest_id: # your pinterest id
+ # publons_id: # your ID on Publons
+ # quora_username: # your Quora username
+ # research_gate_profile: # your profile on ResearchGate
+ rss_icon: true # comment this line to hide the RSS icon
+-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
++scholar_userid: o6Rh4iUAAAAJ # your Google Scholar ID
+ # scopus_id: # your profile on Scopus
+ # semanticscholar_id: # your Semantic Scholar ID
+ # spotify_id: # your spotify id
+@@ -50,7 +50,3 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+ # x_username: # your X handle
+ # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+ # zotero_username: # your zotero username
+-custom_social: # can be any name here other than the ones already defined above
+-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+-  title: Custom Social
+-  url: https://www.alberteinstein.com/
+-- 
+2.43.0
+
