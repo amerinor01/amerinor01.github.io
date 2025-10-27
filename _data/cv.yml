@@ -47,7 +47,6 @@
       year: 2024-now
       description: Mantainer of multiple NixPkgs
 
-
 - title: Academic Interests
   type: nested_list
   contents:
@@ -57,4 +56,3 @@
         - DCQCN.
         - Congestion Isolation.
     - title: Performance Engineer.
-
