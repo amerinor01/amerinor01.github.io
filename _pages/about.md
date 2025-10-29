@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, <a href='https://www.uclm.es/'>Univeristy of Castilla-La Mancha</a>.
+subtitle: PhD Student, <a href='https://www.uclm.es/'>University of Castilla-La Mancha</a>.
 
 profile:
   align: right

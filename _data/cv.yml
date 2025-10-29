@@ -13,18 +13,23 @@
   contents:
     - title: PhD in Computer Science
       institution: University of Castilla-La Mancha
-      year: 2023-Current
+      year: 2023-Now
 
-    - title: Máster Universitario en Ingeniería Informática (MUii)
+    - title: Master Computer Science
       institution: University of Castilla-La Mancha, Albacete, Spain
       year: 2022 - 2023
+      description: Máster Universitario en Ingeniería Informática (MUii)
+
+    - title: Bachelor Computer Science
+      institution: University of Castilla-La Mancha, Albacete, Spain
+      year: 2017 - 2022
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Assistant
       institution: University of Castilla-La Mancha
-      year: 2021 - 2025
+      year: 2021 - Now
       description:
         - Analyzing the performance of existing congestion control algorithms.
         - Developing new tools for analyzing network performance
