@@ -30,7 +30,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-new-preprint-out-pcm-programmable-congestion-management-for-terabit-rdma-nics-a-portable-programming-model-for-congestion-control-and-load-balancing-on-datacenter-nics-evaluated-on-nvidia-connectx-8-microsoft-1p-uccl-and-an-ultra-ethernet-simulator",
+        },{id: "news-i-was-a-speaker-at-the-cern-summer-stem-academy-2026-where-i-presented-inasim-as-an-open-source-network-simulator-and-taught-a-2-hour-hands-on-session-practice-networking-simulation",
+          title: 'I was a speaker at the CERN Summer STEM Academy 2026, where I...',
+          description: "",
+          section: "News",},{id: "news-new-preprint-out-pcm-programmable-congestion-management-for-terabit-rdma-nics-a-portable-programming-model-for-congestion-control-and-load-balancing-on-datacenter-nics-evaluated-on-nvidia-connectx-8-microsoft-1p-uccl-and-an-ultra-ethernet-simulator",
           title: 'New preprint out: PCM: Programmable Congestion Management for Terabit RDMA NICs, a portable...',
           description: "",
           section: "News",},{id: "projects-inasim",
