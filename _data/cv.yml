@@ -1,61 +1,115 @@
+# Also rendered to assets/pdf/cv.pdf by _typst/cv.typ on deploy.
+# Sections with `pdf: false` only appear on the /cv/ page.
+
 - title: General Information
   type: map
   contents:
     - name: Full Name
       value: Alberto Merino
+    - name: Location
+      value: Albacete, Spain
     - name: Languages
       value: English, Spanish
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: University of Castilla-La Mancha
+      location: Albacete, Spain
+      year: Apr 2021 - Present
+      description:
+        - Designed and implemented performance-critical congestion-control algorithms for RoCEv2 data-center networks, combining 3+ algorithms and reducing 99th-percentile tail latency by up to 30% and mean latency by 40% for bursty traffic, using C++ and event-based simulation to evaluate scalability, latency, and throughput.
+        - Optimized a cycle-accurate, event-based network simulator and its synthetic traffic generation pipeline, cutting traffic-trace processing time by 50% and generated events by 20% without compromising data accuracy.
+        - Co-authored scientific publications and presented technical findings on network optimization to international audiences.
+
+    - title: Research Visit
+      institution: ETH Zürich, SPCL Research Group (Prof. Torsten Hoefler)
+      location: Zurich, Switzerland
+      year: Apr 2026 - Sep 2026
+      description:
+        - Extended the schema of a programmable congestion-control mechanism to support receiver-based CC techniques, to enable more flexible flow-control policies for data-center networks.
+        - Conducted a fair, standardized comparison of 5+ congestion-control techniques and applied hyperparameter optimization to tune each algorithm's parameters, improving performance by up to 25% (preliminary) over default configurations.
 
 - title: Education
   type: time_table
   contents:
     - title: PhD in Computer Science
       institution: University of Castilla-La Mancha
-      year: 2023-Now
+      location: Albacete, Spain
+      year: Sep 2023 - Present
+      description:
+        - "Research: Design of Efficient Flow- and Admission-Control Solutions for Data-Center Networks"
 
-    - title: Master Computer Science
-      institution: University of Castilla-La Mancha, Albacete, Spain
-      year: 2022 - 2023
-      description: Máster Universitario en Ingeniería Informática (MUii)
-
-    - title: Bachelor Computer Science
-      institution: University of Castilla-La Mancha, Albacete, Spain
-      year: 2017 - 2022
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Assistant
+    - title: Master of Computer Science
       institution: University of Castilla-La Mancha
-      year: 2021 - Now
+      location: Albacete, Spain
+      year: Sep 2022 - Feb 2023
       description:
-        - Analyzing the performance of existing congestion control algorithms.
-        - Developing new tools for analyzing network performance
-        - Analyzing the impact of different network parameters on performance.
-        - Analyzing the impact of different traffic patterns on congestion control performance.
-        - Authored and co-authored scientific publications in peer-reviewed journals and conferences
+        - "Thesis: Modeling and evaluation of a source-based flow-control mechanism for high-performance interconnection networks"
+        - "Relevant Coursework: High Performance Computing, Cloud Systems and Services, Intelligent Systems Development"
 
-    - title: Summer of Nix Contributor
-      institution: NixOS Foundation
-      year: 06.2024 - 09.2024
+    - title: Erasmus exchange
+      institution: RWTH Aachen University
+      location: Aachen, Germany
+      year: Sep 2021 - Feb 2022
+
+    - title: Bachelor of Computer Science
+      institution: University of Castilla-La Mancha
+      location: Albacete, Spain
+      year: Sep 2017 - Jun 2022
       description:
-        - Contributed to improving the building processes of libraries and security software firmware in a remote-friendly team.
-        - Enhanced cross-compilation workflows using the Nix ecosystem for efficient builds.
-        - Present our work in the NixCon 2024
+        - "Thesis: Modeling Destination-based Scheduling of Traffic Flows in Interconnection Network Simulators"
+        - "Relevant Coursework: Data Structures, Computer Networks I/II, Operating Systems I/II, Computer Architecture, Intelligent Systems"
 
-- title: Open Source Projects
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Languages
+      value: C++, Python
+    - name: Build & Testing
+      value: CMake, GoogleTest (gtest), uv
+    - name: Development & Infrastructure
+      value: Git, Docker, Nix, Linux
+    - name: Performance & Profiling
+      value: perf, event-based simulation, traffic-trace processing
+    - name: Distributed Systems & Networking
+      value: Data-center networks, RoCEv2, congestion control, flow control, admission control, high-performance interconnection networks
+
+- title: Talks
   type: time_table
   contents:
-    - title: <a href="https://github.com/NixOs/nixpkgs">NixPkgs</a>
-      year: 2024-now
-      description: Mantainer of multiple NixPkgs
+    - title: CERN Summer STEM Academy 2026
+      institution: CERN
+      location: Geneva, Switzerland
+      year: Jul 2026
+      description:
+        - Presented INASim as an open-source network simulator.
+        - Taught a 2-hour hands-on session, "Practice - Networking simulation".
+
+- title: Open Source
+  type: time_table
+  contents:
+    - title: Summer of Nix 2024
+      role: Contributor
+      institution: NixOS Foundation
+      year: Jun 2024 - Sep 2024
+      description:
+        - Standardized cross-compilation for x86, ARM, and RISC-V using Nix, enabling 100% reproducible builds for security-critical firmware; presented the resulting work at NixCon 2024.
+
+    - title: <a href="https://github.com/NixOS/nixpkgs">nixpkgs</a>
+      role: Maintainer
+      year: 2024 - Present
+      description:
+        - Maintainer of multiple packages in nixpkgs.
 
 - title: Academic Interests
   type: nested_list
+  pdf: false
   contents:
     - title: High Performance Computing Networks.
       items:
-        - Congestion Controntrol.
+        - Congestion Control.
         - DCQCN.
         - Congestion Isolation.
     - title: Performance Engineer.
