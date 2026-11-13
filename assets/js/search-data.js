@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research software I develop and contribute to.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -23,14 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "TBD",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
-          },
-        },{
+        },{id: "news-new-preprint-out-pcm-programmable-congestion-management-for-terabit-rdma-nics-a-portable-programming-model-for-congestion-control-and-load-balancing-on-datacenter-nics-evaluated-on-nvidia-connectx-8-microsoft-1p-uccl-and-an-ultra-ethernet-simulator",
+          title: 'New preprint out: PCM: Programmable Congestion Management for Terabit RDMA NICs, a portable...',
+          description: "",
+          section: "News",},{id: "projects-inasim",
+          title: 'INASim',
+          description: "Interconnection network simulator for HPC and data-center networks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/inasim/";
+            },},{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
