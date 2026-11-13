@@ -23,4 +23,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at University of Castilla-La Mancha (UCLM). My researh of interest focus on High Performance Interconnection Networks and Congestion Control Techniques.
+I am a PhD student at University of Castilla-La Mancha (UCLM). My research interests focus on High Performance Interconnection Networks and Congestion Control Techniques.
+
+You can reach me at [hello@amerino.eu](mailto:hello@amerino.eu), or at [Alberto.Merino@uclm.es](mailto:Alberto.Merino@uclm.es) for university-related matters.

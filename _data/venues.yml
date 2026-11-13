@@ -1,3 +1,6 @@
 "CCGrid 2024":
   url: https://2024.ccgrid-conference.org/
   color: "#00369f"
+"arXiv":
+  url: https://arxiv.org/
+  color: "#952624"
