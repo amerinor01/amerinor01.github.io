@@ -36,8 +36,11 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+# /feed.xml is a custom template listing the _news collection (jekyll-feed skips
+# generating a feed when that file exists)
+feed:
+  title: Alberto's Web
+  author: Alberto Merino
 
 # -----------------------------------------------------------------------------
 # Layout
