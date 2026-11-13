@@ -17,7 +17,7 @@
     - title: Research Assistant
       institution: University of Castilla-La Mancha
       location: Albacete, Spain
-      year: Apr 2021 - Present
+      year: 04.2021 - Present
       description:
         - Designed and implemented performance-critical congestion-control algorithms for RoCEv2 data-center networks, combining 3+ algorithms and reducing 99th-percentile tail latency by up to 30% and mean latency by 40% for bursty traffic, using C++ and event-based simulation to evaluate scalability, latency, and throughput.
         - Optimized a cycle-accurate, event-based network simulator and its synthetic traffic generation pipeline, cutting traffic-trace processing time by 50% and generated events by 20% without compromising data accuracy.
@@ -26,7 +26,7 @@
     - title: Research Visit
       institution: ETH Zürich, SPCL Research Group (Prof. Torsten Hoefler)
       location: Zurich, Switzerland
-      year: Apr 2026 - Sep 2026
+      year: 04.2026 - 09.2026
       description:
         - Extended the schema of a programmable congestion-control mechanism to support receiver-based CC techniques, to enable more flexible flow-control policies for data-center networks.
         - Conducted a fair, standardized comparison of 5+ congestion-control techniques and applied hyperparameter optimization to tune each algorithm's parameters, improving performance by up to 25% (preliminary) over default configurations.
@@ -37,14 +37,14 @@
     - title: PhD in Computer Science
       institution: University of Castilla-La Mancha
       location: Albacete, Spain
-      year: Sep 2023 - Present
+      year: 09.2023 - Present
       description:
         - "Research: Design of Efficient Flow- and Admission-Control Solutions for Data-Center Networks"
 
     - title: Master of Computer Science
       institution: University of Castilla-La Mancha
       location: Albacete, Spain
-      year: Sep 2022 - Feb 2023
+      year: 09.2022 - 02.2023
       description:
         - "Thesis: Modeling and evaluation of a source-based flow-control mechanism for high-performance interconnection networks"
         - "Relevant Coursework: High Performance Computing, Cloud Systems and Services, Intelligent Systems Development"
@@ -52,12 +52,12 @@
     - title: Erasmus exchange
       institution: RWTH Aachen University
       location: Aachen, Germany
-      year: Sep 2021 - Feb 2022
+      year: 09.2021 - 02.2022
 
     - title: Bachelor of Computer Science
       institution: University of Castilla-La Mancha
       location: Albacete, Spain
-      year: Sep 2017 - Jun 2022
+      year: 09.2017 - 06.2022
       description:
         - "Thesis: Modeling Destination-based Scheduling of Traffic Flows in Interconnection Network Simulators"
         - "Relevant Coursework: Data Structures, Computer Networks I/II, Operating Systems I/II, Computer Architecture, Intelligent Systems"
@@ -82,7 +82,7 @@
     - title: CERN Summer STEM Academy 2026
       institution: CERN
       location: Geneva, Switzerland
-      year: Jul 2026
+      year: "07.2026"
       description:
         - Presented INASim as an open-source network simulator.
         - Taught a 2-hour hands-on session, "Practice - Networking simulation".
@@ -93,7 +93,7 @@
     - title: Summer of Nix 2024
       role: Contributor
       institution: NixOS Foundation
-      year: Jun 2024 - Sep 2024
+      year: 06.2024 - 09.2024
       description:
         - Standardized cross-compilation for x86, ARM, and RISC-V using Nix, enabling 100% reproducible builds for security-critical firmware; presented the resulting work at NixCon 2024.
 

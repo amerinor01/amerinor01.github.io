@@ -23,7 +23,13 @@
 }
 
 #let items(d) = if d == none { () } else if type(d) == array { d } else { (d,) }
-#let dates(e) = str(e.at("year", default: "")).replace(" - ", " \u{2014} ")
+// cv.yml uses MM.YYYY (as shown on the web); the PDF spells out the month.
+#let months = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+#let dates(e) = (
+  str(e.at("year", default: ""))
+    .replace(regex("(\\d{2})\\.(\\d{4})"), m => months.at(int(m.captures.at(0)) - 1) + " " + m.captures.at(1))
+    .replace(" - ", " \u{2014} ")
+)
 #let opt(e, key) = e.at(key, default: "")
 
 #let info = {
